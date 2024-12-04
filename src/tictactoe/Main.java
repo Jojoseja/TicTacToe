@@ -44,8 +44,7 @@ public class Main {
 
 	}
 
-	// Metodo para comprobar que el numero que se escoja no haya sido escogido
-	// previamente
+	// Metodo para comprobar que el numero que se escoja no haya sido escogido previamente
 	static boolean checkValid(int input, String[][] gameStatus) {
 		boolean result = true;
 		switch (input) {
